@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="bg-dark">
+    <div class="m-5 border border-danger p-5 rounded-5 bg-dark text-white">
+        <h1  style="color: rgb(250,235 ,22); text-align: center;" >Đăng Nhập Hệ Thống</h1>
+    <form action="" method="post">
+        <div>
+            <label class="form-label" for="TenDangNhap">Tên Đăng Nhập</label>
+            <input class="form-control" placeholder="Email/SDT/MãSV" required type="text" name="TenDangNhap" id="TenDangNhap" >    
+
+        </div>
+        <div>
+            <label class="form-label" for="Matkhau">Mật Khẩu</label>
+        <input  class="form-control" placeholder="Mật Khẩu" required type="password" name="Matkhau" id="Matkhau">
+        <br>
+        </div>
+        <div >
+            <a  href="#">Quên Mật Khẩu</a>
+        </div>
+       <div>
+        <label class="form-label" for="Nhomatkhau">Nhớ Mật Khẩu</label>
+        <input  class="form-check-input" type="checkbox" name="Nhomatkhau" id="Nhomatkhau">
+        <br> 
+       </div>
+        <div class="d-flex justify-content-left">
+            <button class="btn btn-outline-danger " type="reset">Nhập Lại</button>
+        <button class="btn btn-success me-2" type="submit">Đăng Nhập</button>
+        </div>
+        <div>Bạn chưa có tài khoản ? <a href="formdangky.html">Đăng Ký</a></div>
+    </form>
+    </div>
+
+</body>
+</html>
